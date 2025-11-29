@@ -519,12 +519,17 @@ function add_to_cart() {
 
             if (snapshot.exists()) {
 
+                var existing_product = snapshot.val();
+                var db_quantity = parseInt(existing_product.pro_quantity);
+                var new_quantity = parseInt(qunatity) + db_quantity;
+                // console.log(new_quantity);
+
                 // Product pehle se hai
                 quantity_button_text.innerText = 'Quantity Updated';
 
                 console.log("add ho gaya!");
                 firebase.database().ref("products").child(cart_obj.id).update({
-                    pro_quantity: qunatity
+                    pro_quantity: new_quantity
                 });
                 console.log('qunatity update ho gai!');
 

@@ -13,7 +13,7 @@ var firebaseConfig = {
 var app = firebase.initializeApp(firebaseConfig);
 var fb_db = firebase.database();
 
-console.log(fb_db);
+// console.log(fb_db);
 var total_ui_price = 0;
 var cart_item_count = 0;
 
@@ -29,8 +29,7 @@ firebase
         var price = parseFloat(product.pro_price.replace('$', ''));
         var quantity = parseInt(product.pro_quantity);  // ✅ Get quantity
         var product_total = price * quantity;
-
-
+        
         total_ui_price += product_total;
         document.getElementById("grand_total").innerText = "$" + total_ui_price.toFixed(2)
 
