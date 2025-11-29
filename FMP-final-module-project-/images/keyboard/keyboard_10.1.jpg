@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://www.a4tech.com/product.aspx?tid=37&id=397 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="Description"><meta name="Keywords"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Bluetooth &amp; 2.4G Wireless KB( FBX53C )</title><link rel="stylesheet" href="./keyboard_10.1_files/layui.css">
+<link rel="stylesheet" href="./keyboard_10.1_files/header.css">
+<link rel="Stylesheet" href="./keyboard_10.1_files/footer.css">
+
+<script type="text/javascript" id="www-widgetapi-script" src="./keyboard_10.1_files/www-widgetapi.js.download" async=""></script><script type="text/javascript" src="./keyboard_10.1_files/jquery-3.7.1.min.js.download"></script>
+<script src="./keyboard_10.1_files/layui.js.download"></script>
+<script type="text/javascript" src="./keyboard_10.1_files/mainMenu.js.download"></script><link rel="stylesheet" href="./keyboard_10.1_files/kind.css"><link rel="stylesheet" href="./keyboard_10.1_files/recommend.css"><link type="text/css" rel="Stylesheet" href="./keyboard_10.1_files/product.css"><title>
+
+</title></head>
+
+<body>
+	<div id="Header">
+		
+<div class="Large-screen-navigation">
+    <div class="Large-container-navigation">
+        <div class="navigation-head">
+            <div class="nav-container">
+                <div class="nav-menu">
+                    <ul class="layui-nav layui-nav-container nav-Our-Brands" style="padding: 0;background-color:transparent;">
+                        <li class="layui-nav-item">
+                            <a href="javascript:;" class="nav-link introduce-title">Our Brands<i class="layui-icon layui-icon-down layui-nav-more"></i></a>
+                            <dl class="layui-nav-child">
+                                <dd>
+                                    <a href="https://www.bloody.com/en/index.php" class="nav-sub-link">
+                                        <img src="./keyboard_10.1_files/p_bloodylogo.png" alt="bloody">
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="http://si.bloody.cn/index.php" class="nav-sub-link">
+                                        <img src="./keyboard_10.1_files/p_savagelogo.png" alt="savage">
+                                    </a>
+                                </dd>
+                                <dd>
+                                    <a href="http://www.biosong-audio.com/en/" class="nav-sub-link">
+                                        <img src="./keyboard_10.1_files/p_biosonglogo.png" alt="biosong">
+                                    </a>
+                                </dd>
+                            </dl>
+                        </li>
+                    <span class="layui-nav-bar"></span></ul>
+                </div>
+                <div class="brand-info">
+                    <div class="brand-icon">
+                        <img src="./keyboard_10.1_files/diqiu.svg" alt="Global" class="icon-image">
+                    </div>
+                    <ul class="layui-nav nav-Language" style="padding: 0;background-color:transparent;">
+                        <li class="layui-nav-item" style="">
+                            <a href="javascript:;" style="padding: 0 0px 0 5px;line-height: 50px;" class="introduce-title">Global<i class="layui-icon layui-icon-down layui-nav-more"></i></a>
+                            <dl class="layui-nav-child layui-anim layui-anim-upbit">
+                                <dd>
+                                    <a href="http://www.a4tech.cn/">中国</a>
+                                </dd>
+                                <dd>
+                                    <a href="http://ru.a4tech.com/">Russia</a>
+                                </dd>
+								<dd>
+                                    <a target="_blank" href="https://a4tech.ua/">Ukraine</a>
+                                </dd>
+								<dd>
+                                    <a target="_blank" href="https://www.a4tech.pk/">Pakistan</a>
+                                </dd>
+                            </dl>
+                        </li>
+                    <span class="layui-nav-bar" style="left: 0px; width: 0px; opacity: 0;"></span></ul>
+                </div>
+            </div>
+        </div>
+        <div class="navigation-top">
+            <div class="navigation-centre">
+                <div class="logo-box">
+                    <a href="https://www.a4tech.com/" id="logo">
+                        <img id="topLogoImg" src="./keyboard_10.1_files/a4logo_2.svg" alt="LOGO">
+                    </a>
+                </div>
+
+                <div class="kind-box">
+                    <ul class="layui-nav" id="cenitem" style="padding: 0px;">
+                        <!--  -->
+                        <li class="layui-nav-item">
+                            <a href="https://www.a4tech.com/">HOME</a>
+                        </li>
+                        <li class="layui-nav-item headermodel" index="1">
+                            <a index="1">PRODUCTS</a>
+                        </li>
+                        <li class="layui-nav-item headermodel" index="2">
+                            <a index="2">SUPPORT</a>
+                        </li>
+                        <li class="layui-nav-item headermodel" index="3">
+                            <a index="3">COMPANY</a>
+                        </li>
+						<li class="layui-nav-item">
+                            <a href="http://x7.a4tech.com/" target="_blank">X7 GAMING</a>
+                        </li>
+                    <span class="layui-nav-bar" style="left: 378.263px; top: 57px; width: 0px; opacity: 0;"></span></ul>
+                </div>
+
+                <div class="region-box">
+                    <i class="layui-icon layui-icon-search search" id="search"></i>
+                </div>
+            </div>
+            <form class="search-box-container" id="search-box-container" action="https://www.a4tech.com/product.aspx?tid=37&amp;id=397#" method="get">
+                <div class="search-centre">
+                    <div class="search-box">
+                        <div class="search-input">
+                            <input id="search-input" type="text" placeholder="Search">
+                        </div>
+                        <div class="search-button">
+                            <button type="submit">
+                                <i class="layui-icon layui-icon-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="search-close">
+                        <i class="layui-icon layui-icon-close"></i>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="dropMenus" id="dropMenus">
+            <div id="dropMenu" style="transform: translateY(-101%);">
+                <div class="type-box" index="1" style="display: none;">
+                    <div class="type"><div class="type-vessel"><ul class="type-ul"><li class="type-img"><img src="./keyboard_10.1_files/1102145592275760.png"></li><li class="type-title"><a href="https://www.a4tech.com/products.aspx?tid=1"><p><span>Mouse</span></p></a></li><li class="type-particular"><a href="https://www.a4tech.com/products.aspx?tid=46"><p><span>Bluetooth + 2.4G</span></p></a></li><li class="type-particular"><a href="https://www.a4tech.com/products.aspx?tid=3"><p><span>2.4G Wireless Mouse</span></p></a></li><li class="type-particular"><a href="https://www.a4tech.com/products.aspx?tid=9"><p><span>Wired Mouse</span></p></a></li></ul></div><div class="type-vessel"><ul class="type-ul"><li class="type-img"><img src="./keyboard_10.1_files/2810385861421088.png"></li><li class="type-title"><a href="https://www.a4tech.com/products.aspx?tid=2"><p><span>Keyboard</span></p></a></li><li class="type-particular"><a href="https://www.a4tech.com/products.aspx?tid=37"><p><span>Bluetooth / 2.4G Keyboard</span></p></a></li><li class="type-particular"><a href="https://www.a4tech.com/products.aspx?tid=10"><p><span>Wired Keyboard</span></p></a></li></ul></div><div class="type-vessel"><ul class="type-ul"><li class="type-img"><img src="./keyboard_10.1_files/2810393116724478.png"></li><li class="type-title"><a href="https://www.a4tech.com/products.aspx?tid=13"><p><span>Desktop</span></p></a></li><li class="type-particular"><a href="https://www.a4tech.com/products.aspx?tid=26"><p><span>Bluetooth / 2.4G Desktop</span></p></a></li><li class="type-particular"><a href="https://www.a4tech.com/products.aspx?tid=25"><p><span>Wired Desktop</span></p></a></li></ul></div><div class="type-vessel"><ul class="type-ul"><li class="type-img"><img src="./keyboard_10.1_files/2810415395338157.png"></li><li class="type-title"><a href="https://www.a4tech.com/products.aspx?tid=6"><p><span>Audio</span></p></a></li><li class="type-particular"><a href="https://www.a4tech.com/products.aspx?tid=43"><p><span>Bluetooth Headphone</span></p></a></li><li class="type-particular"><a href="https://www.a4tech.com/products.aspx?tid=17"><p><span>Headphone</span></p></a></li><li class="type-particular"><a href="https://www.a4tech.com/products.aspx?tid=42"><p><span>TWS</span></p></a></li><li class="type-particular"><a href="https://www.a4tech.com/products.aspx?tid=16"><p><span>Earphone</span></p></a></li><li class="type-particular"><a href="https://www.a4tech.com/products.aspx?tid=41"><p><span>Cable</span></p></a></li></ul></div><div class="type-vessel"><ul class="type-ul"><li class="type-img"><img src="./keyboard_10.1_files/1102162999779089.png"></li><li class="type-title"><a href="https://www.a4tech.com/products.aspx?tid=5"><p><span>Webcam</span></p></a></li><li class="type-particular"><a href="https://www.a4tech.com/products.aspx?tid=36"><p><span>UHD 2160P(4K)</span></p></a></li><li class="type-particular"><a href="https://www.a4tech.com/products.aspx?tid=21"><p><span>HD 1080P</span></p></a></li><li class="type-particular"><a href="https://www.a4tech.com/products.aspx?tid=34"><p><span>HD 720P</span></p></a></li><li class="type-particular"><a href="https://www.a4tech.com/products.aspx?tid=22"><p><span>480P</span></p></a></li></ul></div><div class="type-vessel"><ul class="type-ul"><li class="type-img"><img src="./keyboard_10.1_files/1102164313581809.png"></li><li class="type-title"><a href="https://www.a4tech.com/products.aspx?tid=27"><p><span>Device</span></p></a></li><li class="type-particular"><a href="https://www.a4tech.com/products.aspx?tid=28"><p><span>USB HUB</span></p></a></li><li class="type-particular"><a href="https://www.a4tech.com/products.aspx?tid=38"><p><span>Mouse Pad</span></p></a></li><li class="type-particular"><a href="https://www.a4tech.com/products.aspx?tid=33"><p><span>Laser Pen</span></p></a></li><li class="type-particular"><a href="https://www.a4tech.com/products.aspx?tid=29"><p><span>Microphone</span></p></a></li></ul></div></div>
+                </div>
+                <div class="type-box" index="2" style="display: none;">
+                    <div class="type" style="display: flex;justify-content: center; gap: 80px;">
+                        <div class="type-vessel">
+                            <ul class="type-ul">
+                                <li class="type-title">
+                                    <a href="https://www.a4tech.com/contactUs.aspx">
+                                        <p>Contact Us</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="type-vessel">
+                            <ul class="type-ul">
+                                <li class="type-title">
+                                    <a href="https://www.a4tech.com/techSupport.aspx">
+                                        <p>Tech Support</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="type-vessel">
+                            <ul class="type-ul">
+                                <li class="type-title">
+                                    <a href="https://www.a4tech.com/FAQ.aspx">
+                                        <p>FAQs</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="type-vessel">
+                            <ul class="type-ul">
+                                <li class="type-title">
+                                    <a href="https://www.a4tech.com/download.aspx">
+                                        <p>Download</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="type-box" index="3" style="display: block;">
+                    <div class="type" style="text-align: center;grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));">
+                        <div class="type-vessel">
+                            <ul class="type-ul">
+                                <li class="type-title">
+                                    <a href="https://www.a4tech.com/aboutUs.aspx">
+                                        <p>About Us</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="placeholder"></div>
+</div><div class="Small-screen-navigation">
+    <div class="Small-container-navigation">
+        <div class="Small-screen-menu">
+            <div class="Small-screen-more" lay-on="test-offset-left">
+                <img src="./keyboard_10.1_files/stg.svg" alt="log">
+            </div>
+            <div class="Small-screen-logo">
+                <a href="https://www.a4tech.com/">
+                    <img src="./keyboard_10.1_files/a4logo_2.svg" alt="log">
+                </a>
+            </div>
+            <div class="Small-screen-search">
+                <i class="layui-icon layui-icon-search" id="Small-search"></i>
+            </div>
+        </div>
+        <div id="Small-screen-search-box">
+            <form class="Small-search-box-container" id="Small-search-box-container" action="https://www.a4tech.com/product.aspx?tid=37&amp;id=397#" method="get">
+                <div class="search-centre">
+                    <div class="search-box">
+                        <div class="search-input">
+                            <input id="Small-search-input" type="text" placeholder="Search">
+                        </div>
+                        <div class="search-button">
+                            <button type="submit">
+                                <i class="layui-icon layui-icon-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="search-search-close">
+                        <i class="layui-icon layui-icon-close"></i>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="placeholder"></div>
+</div>
+		<div class="vdsg">
+			<div class="call">
+				<p class="model">FBX53C</p><p class="describe">Bluetooth &amp; 2.4G Wireless KB</p>
+			</div>
+		</div>
+	</div>
+	
+    <div class="proSecMenus">
+        <ul id="secMenuUl">
+            <li><a href="https://www.a4tech.com/products.aspx?tid=2" id="37" class=""><svg version="1.1" style="fill:currentColor;vertical-align:middle;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve"><g><g><g><path d="M16.823,7.721c3.486,0.824,6.078,3.953,6.078,7.688c0,1.451-0.393,2.811-1.074,3.98l-1.141-0.645l0,0l0,0l1.32,3.85l5.012-0.271l0,0l0,0l-1.098-0.621c1.07-1.852,1.682-4,1.682-6.293c0-6.324-4.658-11.56-10.73-12.464l1.869,2.631L16.823,7.721z"></path></g><g><path d="M4.025,21.606C6.19,25.431,10.293,28.013,15,28.013c3.815,0,7.233-1.697,9.545-4.375l-3.293,0.014l -0.832-2.494c-1.416,1.336-3.322,2.154-5.42,2.154c-2.962,0-5.543-1.631-6.896-4.045l1.079-0.619l-0.448-0.092l-1.075-0.217l -2.746-0.561l-1.323,2.99l-0.438,0.99l-0.205,0.467L4.025,21.606z"></path></g><g><path d="M3.212,19.872l1.326-3l2.828,0.576C7.193,16.798,7.1,16.114,7.1,15.409c0-4.357,3.528-7.891,7.884-7.899v1.181l0.241-0.269l0.761-0.851l1.851-2.069l-1.89-2.659l-0.722-1.015l-0.241-0.338v1.318C8.031,2.816,2.398,8.456,2.398,15.409C2.398,16.981,2.687,18.483,3.212,19.872z"></path></g></g></g></svg> <span txt="Bluetooth / 2.4G Keyboard">ALL</span></a></li><li><a href="https://www.a4tech.com/products.aspx?tid=37" id="37" class="now"><span txt="Bluetooth / 2.4G Keyboard">Bluetooth / 2.4G Keyboard</span></a></li><li><a href="https://www.a4tech.com/products.aspx?tid=10" id="10" class=""><span txt="Wired Keyboard">Wired Keyboard</span></a></li>
+        </ul>
+    </div>
+	<div id="subject">
+		<div class="carousel-subject">
+			<div id="kernel">
+				<div class="left vessel">
+					<div class="carousel">
+						<div class="wrapper">
+							<div class="carousel-ProImg">
+								<div class="carousel-ProImg-vessel">
+									<ul class="carousel-ProImg-List carousel-Img" id="634" style="transform: translateX(0%); transition: 0.5s ease-in-out;"><li class="quantity" style="margin-left: -100%;"><div><img src="./keyboard_10.1_files/0904392652715312.jpg" alt="1"></div></li><li class="quantity"><div><img src="./keyboard_10.1_files/0904394239119828.jpg" alt="1"></div></li><li class="quantity"><div><img src="./keyboard_10.1_files/0904393875714176.jpg" alt="1"></div></li><li class="quantity"><div><img src="./keyboard_10.1_files/0904393499813321.jpg" alt="1"></div></li><li class="quantity"><div><img src="./keyboard_10.1_files/0904393121316481.jpg" alt="1"></div></li><li class="quantity"><div><img src="./keyboard_10.1_files/0904392652715312.jpg" alt="1"></div></li><li class="quantity"><div><img src="./keyboard_10.1_files/0904394239119828.jpg" alt="1"></div></li></ul>
+								</div>
+								<div class="carousel-left carousel-i pointer"><i class="layui-icon layui-icon-left"></i>
+								</div>
+								<div class="carousel-right carousel-i pointer"><i class="layui-icon layui-icon-right"></i>
+								</div>
+							</div>
+							<div class="carousel-Little">
+								<div class="carousel-Little-vessel">
+									<ul class="carousel-Little-List carousel-Img" id="634"><li class="pointer active" data-index="0"><div><img src="./keyboard_10.1_files/0904394239119828.jpg" alt="1"></div></li><li class="pointer" data-index="1"><div><img src="./keyboard_10.1_files/0904393875714176.jpg" alt="1"></div></li><li class="pointer" data-index="2"><div><img src="./keyboard_10.1_files/0904393499813321.jpg" alt="1"></div></li><li class="pointer" data-index="3"><div><img src="./keyboard_10.1_files/0904393121316481.jpg" alt="1"></div></li><li class="pointer" data-index="4"><div><img src="./keyboard_10.1_files/0904392652715312.jpg" alt="1"></div></li></ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="right vessel">
+					<div class="right-carousel"><div class="information">
+							<div id="swapDivFeedback" class="fstyler-logo">
+	
+								<img src="./keyboard_10.1_files/fstyler_b.png" alt="">
+							
+</div>
+							<div class="right-title">
+								<p class="model">FBX53C</p><p class="describe">Bluetooth &amp; 2.4G Wireless KB</p>
+							</div>
+						</div>
+						
+
+						<div class="color-vessel">
+							<div class="color">
+								<p class="headline">Color：</p>
+							</div>
+							<div class="color-vessel-list">
+								<ul class="color-list">
+									<li><div class="colortitle pointer" id="634"><div class="colorimg color-active"><img src="./keyboard_10.1_files/0904391051018539.jpg" alt=""></div><div class="colorname">Black</div></div></li><li><div class="colortitle pointer" id="635"><div class="colorimg "><img src="./keyboard_10.1_files/0904385087713168.jpg" alt=""></div><div class="colorname">white</div></div></li>
+								</ul>
+								<div class="this-color">
+									<p class="this-color-title">
+										Black
+									</p>
+								</div>
+							</div>
+						</div>						
+						
+
+						<div class="Specs">
+							<div class="describe-title pointer">
+								<p class="describe">Specs &amp; Details</p>
+								<i class="layui-icon layui-icon-addition"></i>
+							</div>
+							<div class="describe-content">
+								<div id="PanelDimensionFigure">
+	
+										</div><table>
+									<tbody><tr><td>Connection: Bluetooth /  2.4GHz
+</td></tr><tr><td>Character: Laser Engraving
+</td></tr><tr><td>Report Rate: 1000 Hz (2.4G Mode), 125 Hz (Bluetooth Mode)
+</td></tr><tr><td>Total Travel Distance: 2.0 mm
+</td></tr><tr><td>Battery: 300mAh Lithium Battery
+</td></tr><tr><td>Includes: Keyboard, Nano Receiver, Type-C Adaptor, USB Extension Cable, Type-C Charging Cable, User Manual
+</td></tr><tr><td>Size: 315(L) x 133(W) x 18(H) mm
+</td></tr><tr><td>Weight: 508 g
+</td></tr><tr><td>System Platform: Windows / Mac</td></tr>
+									
+									<tr> 
+											<td><img style="max-width:470px;" src="./keyboard_10.1_files/0904142255085718.jpg" alt="Dimension Figure"></td>
+										</tr>
+									
+
+								</tbody></table>
+							</div>
+						</div>
+						<div id="PanelDownload" class="Download Specs">
+	
+							<div class="describe-title pointer">
+								<p class="describe">Download</p>
+								<i class="layui-icon layui-icon-addition"></i>
+							</div>
+							<div class="describe-content">
+								
+								<a href="https://www.a4tech.com/manuals/pdf/FBX53C.pdf" class="btn-primary" target="_blank">Download Manuals<i class="layui-icon layui-icon-download-circle"></i></a>
+							</div>
+						
+</div>
+
+						<div class="price">
+							<p>Enjoy a 2.0mm actuation scissor switch structure, optimized for comfort and support.</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-gallery">
+				<div class="carousel-gallery-vessel">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <div style="height: 0;overflow: hidden;"></div> -->
+
+	<div id="PanelIcons" class="icons">
+	
+		<div class="icons-title">
+			<p>Features</p>
+		</div>
+		<div class="icons-vessel">
+			<ul class="icon-List"><li class="icon"><div class="icon-img"><img src="./keyboard_10.1_files/2504141324537357.png" alt="Dual Mode Wireless"></div><div class="icon-title"><p>Dual Mode Wireless</p></div></li><li class="icon"><div class="icon-img"><img src="./keyboard_10.1_files/2504141920637338.png" alt="Scissor Switch"></div><div class="icon-title"><p>Scissor Switch</p></div></li><li class="icon"><div class="icon-img"><img src="./keyboard_10.1_files/2109502738753560.png" alt="Multi-Key Rollover"></div><div class="icon-title"><p>Multi-Key Rollover</p></div></li><li class="icon"><div class="icon-img"><img src="./keyboard_10.1_files/1809121541906050.png" alt="Full Speed"></div><div class="icon-title"><p>Full Speed</p></div></li><li class="icon"><div class="icon-img"><img src="./keyboard_10.1_files/2310221207734283.png" alt="Operation Range"></div><div class="icon-title"><p>Operation Range</p></div></li><li class="icon"><div class="icon-img"><img src="./keyboard_10.1_files/0309233810335456.png" alt="System Swap"></div><div class="icon-title"><p>System Swap</p></div></li><li class="icon"><div class="icon-img"><img src="./keyboard_10.1_files/0110034331882894.png" alt="Quiet Typing"></div><div class="icon-title"><p>Quiet Typing</p></div></li><li class="icon"><div class="icon-img"><img src="./keyboard_10.1_files/2310274544949134.png" alt="USB Nano Receiver"></div><div class="icon-title"><p>USB Nano Receiver</p></div></li><li class="icon"><div class="icon-img"><img src="./keyboard_10.1_files/2504143378236584.png" alt="USB Type-C Adaptor"></div><div class="icon-title"><p>USB Type-C Adaptor</p></div></li><li class="icon"><div class="icon-img"><img src="./keyboard_10.1_files/0309242052138395.png" alt="USB Type-C Rechargeable"></div><div class="icon-title"><p>USB Type-C Rechargeable</p></div></li></ul>
+		</div>
+	
+</div>
+	<div class="message">
+		<div class="message-content">
+			
+			<div class="design-content">
+				<div class="design">
+					<ul class="design-List"><li class="design-item"><div class="design-message "><div class="design-img"><img src="./keyboard_10.1_files/0904422963418005.jpg" alt="Dual Connectivity Mode  (BT + 2.4GHz)"></div><div class="design-text"> <div class="design-title design-txt"><p>Dual Connectivity Mode  (BT + 2.4GHz)</p></div> <div class="design-describe design-txt"><p>Connect with up to 4 devices at the same time (3 devices with Bluetooth connection and 1 device with 2.4GHz connection).</p></div> </div></div></li><li class="design-item"><div class="design-message reverse"><div class="design-img"><img src="./keyboard_10.1_files/2110430447816281.png" alt="Ultra Fast Wireless. Office Ready. Game Proven."></div><div class="design-text"> <div class="design-title design-txt"><p>Ultra Fast Wireless. Office Ready. Game Proven.</p></div> <div class="design-describe design-txt"><p>Built with a 2.4G full speed wireless chip delivering 1ms response time and 1000Hz report rate, 8 times faster than typical 125Hz keyboards.
+Multi-key rollover ensures smooth typing and precise multi-key input, eliminating key conflicts for efficient workflows and competitive gameplay.</p></div> </div></div></li><li class="design-item"><div class="design-message "><div class="design-img"><img src="./keyboard_10.1_files/0904424100014297.png" alt="Redefining Typing Standards"></div><div class="design-text"> <div class="design-title design-txt"><p>Redefining Typing Standards</p></div> <div class="design-describe design-txt"><p>Enjoy a 2.0mm actuation scissor switch structure, optimized for comfort and support. This refined design reduces accidental keystrokes, ensuring precise and responsive typing.</p></div> </div></div></li><li class="design-item"><div class="design-message reverse"><div class="design-img"><img src="./keyboard_10.1_files/0904421167217090.png" alt="Operating System Swap"></div><div class="design-text"> <div class="design-title design-txt"><p>Operating System Swap</p></div> <div class="design-describe design-txt"><p>Compatible with Windows / Mac, easily change the layout from one OS to another.</p></div> </div></div></li><li class="design-item"><div class="design-message "><div class="design-img"><img src="./keyboard_10.1_files/0904415623012044.jpg" alt="Compact Size"></div><div class="design-text"> <div class="design-title design-txt"><p>Compact Size</p></div> <div class="design-describe design-txt"><p>Compact design saves desktop space and allows for a close, comfortable mouse position.</p></div> </div></div></li><li class="design-item"><div class="design-message reverse"><div class="design-img"><img src="./keyboard_10.1_files/0904414645716694.jpg" alt="USB Type-C Rechargeable"></div><div class="design-text"> <div class="design-title design-txt"><p>USB Type-C Rechargeable</p></div> <div class="design-describe design-txt"><p>Effortlessly recharge with the Type-C port for uninterrupted productivity.</p></div> </div></div></li></ul>
+				</div>
+			</div>
+		</div>
+		<div id="messageContentFine" class="message-content-fine">
+	
+			<!-- <div class="message-content-fine"> -->
+			<div class="design-content">
+				<div class="design">
+					<ul class="design-fine-List"><li class="design-fine-item"><div class="design-message"><div class="design-img"><img src="./keyboard_10.1_files/0904413352215446.png" alt="USB Type-C Adaptor"></div><div class="design-text"> <div class="design-title design-txt"><p>USB Type-C Adaptor</p></div> <div class="design-describe design-txt"><p>Enjoy the adaptor from USB-A to USB-C for other Type-C devices.</p></div> </div></div></li><li class="design-fine-item"><div class="design-message"><div class="design-img"><img src="./keyboard_10.1_files/0904412418813796.jpg" alt="Keyboard Height Adjustable"></div><div class="design-text"> <div class="design-title design-txt"><p>Keyboard Height Adjustable</p></div> <div class="design-describe design-txt"><p>Elevate your typing experience with 5°/8° two-angle adjustment feet for optimized ergonomics.</p></div> </div></div></li><li class="design-fine-item"><div class="design-message"><div class="design-img"><img src="./keyboard_10.1_files/0904411479517633.jpg" alt="Anti-Slippery Pads"></div><div class="design-text"> <div class="design-title design-txt"><p>Anti-Slippery Pads</p></div> <div class="design-describe design-txt"><p>Prevents keyboard moving or vibrating during the working.</p></div> </div></div></li><li class="design-fine-item"><div class="design-message"><div class="design-img"><img src="./keyboard_10.1_files/0904401269119106.jpg" alt="FN Hotkeys"></div><div class="design-text"> <div class="design-title design-txt"><p>FN Hotkeys</p></div> <div class="design-describe design-txt"><p>One touch to access 12 multimedia &amp; internet functions with FN+ F1 to F12.</p></div> </div></div></li></ul>
+				</div>
+			</div>
+			<!-- </div> -->
+		
+</div>
+	</div>
+
+
+	<!-- 推荐  -->
+	
+<div id="recommend" class="recommendation-container">
+    <div class="recommendation-list-wrap">
+        <div class="recommendation-list-title"><p></p></div>
+        <div class="recommendation-list-inner">
+            <div class="recommendation-list">
+                <ul class="recommendation-list-ul">
+                    <li class="recommendation-item"><div class="recommendation-item-wrap"><a href="https://www.a4tech.com/product.aspx?tid=9&amp;id=254" class="recommendation-item-link" target="_blank"><div class="recommendation-item-image-wrap"><img src="./keyboard_10.1_files/2810243127252650.jpg" alt="FM10 / FM10S" class="recommendation-item-image"></div><div class="recommendation-item-info-wrap"><p class="recommendation-item-info recommendation-item-info-model">FM10 / FM10S</p><p class="recommendation-item-info recommendation-item-info-title">1600 DPI Optical Mouse </p></div></a><div class="recommendation-item-colors"><ul class="recommendation-item-colors-list"><li class="recommendation-item-color" title="Grey"><a href="https://www.a4tech.com/product.aspx?tid=9&amp;id=254&amp;cid=301" target="_blank"><img id="301" src="./keyboard_10.1_files/1201452324969811.jpg" alt="Grey"></a></li><li class="recommendation-item-color" title="Blue"><a href="https://www.a4tech.com/product.aspx?tid=9&amp;id=254&amp;cid=302" target="_blank"><img id="302" src="./keyboard_10.1_files/1201453556744945.jpg" alt="Blue"></a></li><li class="recommendation-item-color" title="Orange"><a href="https://www.a4tech.com/product.aspx?tid=9&amp;id=254&amp;cid=300" target="_blank"><img id="300" src="./keyboard_10.1_files/1201451004674578.jpg" alt="Orange"></a></li><li class="recommendation-item-color" title="Pink"><a href="https://www.a4tech.com/product.aspx?tid=9&amp;id=254&amp;cid=299" target="_blank"><img id="299" src="./keyboard_10.1_files/1201445615394488.jpg" alt="Pink"></a></li><li class="recommendation-item-color" title="Red"><a href="https://www.a4tech.com/product.aspx?tid=9&amp;id=254&amp;cid=298" target="_blank"><img id="298" src="./keyboard_10.1_files/1201443385818832.jpg" alt="Red"></a></li><li class="recommendation-item-color" title="White"><a href="https://www.a4tech.com/product.aspx?tid=9&amp;id=254&amp;cid=297" target="_blank"><img id="297" src="./keyboard_10.1_files/1201440947347779.jpg" alt="White"></a></li></ul></div></div></li><li class="recommendation-item"><div class="recommendation-item-wrap"><a href="https://www.a4tech.com/product.aspx?tid=46&amp;id=408" class="recommendation-item-link" target="_blank"><div class="recommendation-item-image-wrap"><img src="./keyboard_10.1_files/2211510752793696.jpg" alt="FB50C Plus / FB50CS Plus" class="recommendation-item-image"></div><div class="recommendation-item-info-wrap"><p class="recommendation-item-info recommendation-item-info-model">FB50C Plus / FB50CS Plus</p><p class="recommendation-item-info recommendation-item-info-title">Bluetooth &amp; 2.4GHz Wireless Mouse</p></div></a><div class="recommendation-item-colors"><ul class="recommendation-item-colors-list"><li class="recommendation-item-color" title="Black"><a href="https://www.a4tech.com/product.aspx?tid=46&amp;id=408&amp;cid=652" target="_blank"><img id="652" src="./keyboard_10.1_files/2211490003291649.jpg" alt="Black"></a></li><li class="recommendation-item-color" title="White"><a href="https://www.a4tech.com/product.aspx?tid=46&amp;id=408&amp;cid=651" target="_blank"><img id="651" src="./keyboard_10.1_files/2211484892385043.jpg" alt="White"></a></li><li class="recommendation-item-color" title="Pink"><a href="https://www.a4tech.com/product.aspx?tid=46&amp;id=408&amp;cid=650" target="_blank"><img id="650" src="./keyboard_10.1_files/2211481041581672.jpg" alt="Pink"></a></li></ul></div></div></li><li class="recommendation-item"><div class="recommendation-item-wrap"><a href="https://www.a4tech.com/product.aspx?tid=46&amp;id=369" class="recommendation-item-link" target="_blank"><div class="recommendation-item-image-wrap"><img src="./keyboard_10.1_files/2002280531281439.jpg" alt="FB26CS Air2" class="recommendation-item-image"></div><div class="recommendation-item-info-wrap"><p class="recommendation-item-info recommendation-item-info-model">FB26CS Air2</p><p class="recommendation-item-info recommendation-item-info-title">Dual Mode Mouse</p></div></a><div class="recommendation-item-colors"><ul class="recommendation-item-colors-list"><li class="recommendation-item-color" title="Smoky Grey"><a href="https://www.a4tech.com/product.aspx?tid=46&amp;id=369&amp;cid=574" target="_blank"><img id="574" src="./keyboard_10.1_files/2002305342685013.jpg" alt="Smoky Grey"></a></li><li class="recommendation-item-color" title="lcy Whit"><a href="https://www.a4tech.com/product.aspx?tid=46&amp;id=369&amp;cid=573" target="_blank"><img id="573" src="./keyboard_10.1_files/2002294395281736.jpg" alt="lcy Whit"></a></li><li class="recommendation-item-color" title="Cafe Latte"><a href="https://www.a4tech.com/product.aspx?tid=46&amp;id=369&amp;cid=572" target="_blank"><img id="572" src="./keyboard_10.1_files/2002290435184038.jpg" alt="Cafe Latte"></a></li></ul></div></div></li><li class="recommendation-item"><div class="recommendation-item-wrap"><a href="https://www.a4tech.com/product.aspx?tid=3&amp;id=405" class="recommendation-item-link" target="_blank"><div class="recommendation-item-image-wrap"><img src="./keyboard_10.1_files/2209073071512856.jpg" alt="FG50 Plus / FG50S Plus " class="recommendation-item-image"></div><div class="recommendation-item-info-wrap"><p class="recommendation-item-info recommendation-item-info-model">FG50 Plus / FG50S Plus </p><p class="recommendation-item-info recommendation-item-info-title">2.4G Wireless Mouse</p></div></a><div class="recommendation-item-colors"><ul class="recommendation-item-colors-list"><li class="recommendation-item-color" title="Black"><a href="https://www.a4tech.com/product.aspx?tid=3&amp;id=405&amp;cid=649" target="_blank"><img id="649" src="./keyboard_10.1_files/2209593998375113.jpg" alt="Black"></a></li><li class="recommendation-item-color" title="White"><a href="https://www.a4tech.com/product.aspx?tid=3&amp;id=405&amp;cid=648" target="_blank"><img id="648" src="./keyboard_10.1_files/2209564856478084.jpg" alt="White"></a></li><li class="recommendation-item-color" title="Pink"><a href="https://www.a4tech.com/product.aspx?tid=3&amp;id=405&amp;cid=647" target="_blank"><img id="647" src="./keyboard_10.1_files/2209595216577990.jpg" alt="Pink"></a></li></ul></div></div></li><li class="recommendation-item"><div class="recommendation-item-wrap"><a href="https://www.a4tech.com/product.aspx?tid=3&amp;id=386" class="recommendation-item-link" target="_blank"><div class="recommendation-item-image-wrap"><img src="./keyboard_10.1_files/1301573423363512.jpg" alt="FG15C Air2" class="recommendation-item-image"></div><div class="recommendation-item-info-wrap"><p class="recommendation-item-info recommendation-item-info-model">FG15C Air2</p><p class="recommendation-item-info recommendation-item-info-title">Dual-Function Air Mouse</p></div></a><div class="recommendation-item-colors"><ul class="recommendation-item-colors-list"><li class="recommendation-item-color" title="Black"><a href="https://www.a4tech.com/product.aspx?tid=3&amp;id=386&amp;cid=615" target="_blank"><img id="615" src="./keyboard_10.1_files/1302001870464663.jpg" alt="Black"></a></li><li class="recommendation-item-color" title="grey"><a href="https://www.a4tech.com/product.aspx?tid=3&amp;id=386&amp;cid=625" target="_blank"><img id="625" src="./keyboard_10.1_files/1311313422703564.jpg" alt="grey"></a></li><li class="recommendation-item-color" title="White"><a href="https://www.a4tech.com/product.aspx?tid=3&amp;id=386&amp;cid=623" target="_blank"><img id="623" src="./keyboard_10.1_files/1311140537888130.jpg" alt="White"></a></li><li class="recommendation-item-color" title="yellow"><a href="https://www.a4tech.com/product.aspx?tid=3&amp;id=386&amp;cid=624" target="_blank"><img id="624" src="./keyboard_10.1_files/1311141522984451.jpg" alt="yellow"></a></li></ul></div></div></li><li class="recommendation-item"><div class="recommendation-item-wrap"><a href="https://www.a4tech.com/product.aspx?tid=9&amp;id=353" class="recommendation-item-link" target="_blank"><div class="recommendation-item-image-wrap"><img src="./keyboard_10.1_files/0503074804693685.jpg" alt="FM45S Air" class="recommendation-item-image"></div><div class="recommendation-item-info-wrap"><p class="recommendation-item-info recommendation-item-info-model">FM45S Air</p><p class="recommendation-item-info recommendation-item-info-title">Dual-Function Air Mouse</p></div></a><div class="recommendation-item-colors"><ul class="recommendation-item-colors-list"><li class="recommendation-item-color" title="Stone Grey"><a href="https://www.a4tech.com/product.aspx?tid=9&amp;id=353&amp;cid=530" target="_blank"><img id="530" src="./keyboard_10.1_files/2604462825066864.jpg" alt="Stone Grey"></a></li><li class="recommendation-item-color" title="Sports Red"><a href="https://www.a4tech.com/product.aspx?tid=9&amp;id=353&amp;cid=529" target="_blank"><img id="529" src="./keyboard_10.1_files/2812324733976534.png" alt="Sports Red"></a></li><li class="recommendation-item-color" title="Silver White"><a href="https://www.a4tech.com/product.aspx?tid=9&amp;id=353&amp;cid=528" target="_blank"><img id="528" src="./keyboard_10.1_files/2604464730966920.jpg" alt="Silver White"></a></li><li class="recommendation-item-color" title="Cream Beige"><a href="https://www.a4tech.com/product.aspx?tid=9&amp;id=353&amp;cid=527" target="_blank"><img id="527" src="./keyboard_10.1_files/2812332955171476.png" alt="Cream Beige"></a></li><li class="recommendation-item-color" title="lcy Blue"><a href="https://www.a4tech.com/product.aspx?tid=9&amp;id=353&amp;cid=526" target="_blank"><img id="526" src="./keyboard_10.1_files/2812330883179304.png" alt="lcy Blue"></a></li></ul></div></div></li><li class="recommendation-item"><div class="recommendation-item-wrap"><a href="https://www.a4tech.com/product.aspx?tid=43&amp;id=311" class="recommendation-item-link" target="_blank"><div class="recommendation-item-image-wrap"><img src="./keyboard_10.1_files/2404355647352251.jpg" alt="BH300" class="recommendation-item-image"></div><div class="recommendation-item-info-wrap"><p class="recommendation-item-info recommendation-item-info-model">BH300</p><p class="recommendation-item-info recommendation-item-info-title">Wireless Headset</p></div></a><div class="recommendation-item-colors"><ul class="recommendation-item-colors-list"><li class="recommendation-item-color" title="BH300 Ash Grey"><a href="https://www.a4tech.com/product.aspx?tid=43&amp;id=311&amp;cid=451" target="_blank"><img id="451" src="./keyboard_10.1_files/2410122523586650.jpg" alt="BH300 Ash Grey"></a></li><li class="recommendation-item-color" title="BH300 Grayish White"><a href="https://www.a4tech.com/product.aspx?tid=43&amp;id=311&amp;cid=452" target="_blank"><img id="452" src="./keyboard_10.1_files/2410125087402218.jpg" alt="BH300 Grayish White"></a></li><li class="recommendation-item-color" title="BH300 Matcha Green"><a href="https://www.a4tech.com/product.aspx?tid=43&amp;id=311&amp;cid=450" target="_blank"><img id="450" src="./keyboard_10.1_files/2410120239567324.jpg" alt="BH300 Matcha Green"></a></li></ul></div></div></li><li class="recommendation-item"><div class="recommendation-item-wrap"><a href="https://www.a4tech.com/product.aspx?tid=43&amp;id=390" class="recommendation-item-link" target="_blank"><div class="recommendation-item-image-wrap"><img src="./keyboard_10.1_files/1110131793778013.jpg" alt="BH235" class="recommendation-item-image"></div><div class="recommendation-item-info-wrap"><p class="recommendation-item-info recommendation-item-info-model">BH235</p><p class="recommendation-item-info recommendation-item-info-title">Wireless Headset</p></div></a><div class="recommendation-item-colors"><ul class="recommendation-item-colors-list"><li class="recommendation-item-color" title="Black"><a href="https://www.a4tech.com/product.aspx?tid=43&amp;id=390&amp;cid=622" target="_blank"><img id="622" src="./keyboard_10.1_files/1110145416578712.jpg" alt="Black"></a></li><li class="recommendation-item-color" title="White"><a href="https://www.a4tech.com/product.aspx?tid=43&amp;id=390&amp;cid=621" target="_blank"><img id="621" src="./keyboard_10.1_files/1110144190178092.jpg" alt="White"></a></li></ul></div></div></li><li class="recommendation-item"><div class="recommendation-item-wrap"><a href="https://www.a4tech.com/product.aspx?tid=9&amp;id=406" class="recommendation-item-link" target="_blank"><div class="recommendation-item-image-wrap"><img src="./keyboard_10.1_files/2203285948625074.jpg" alt="FM50 Plus / FM50S Plus" class="recommendation-item-image"></div><div class="recommendation-item-info-wrap"><p class="recommendation-item-info recommendation-item-info-model">FM50 Plus / FM50S Plus</p><p class="recommendation-item-info recommendation-item-info-title">4000 DPI Optical Mouse</p></div></a><div class="recommendation-item-colors"><ul class="recommendation-item-colors-list"><li class="recommendation-item-color" title="Black"><a href="https://www.a4tech.com/product.aspx?tid=9&amp;id=406&amp;cid=654" target="_blank"><img id="654" src="./keyboard_10.1_files/2203242757628876.jpg" alt="Black"></a></li><li class="recommendation-item-color" title="White"><a href="https://www.a4tech.com/product.aspx?tid=9&amp;id=406&amp;cid=653" target="_blank"><img id="653" src="./keyboard_10.1_files/2203241334925587.jpg" alt="White"></a></li></ul></div></div></li><li class="recommendation-item"><div class="recommendation-item-wrap"><a href="https://www.a4tech.com/product.aspx?tid=43&amp;id=383" class="recommendation-item-link" target="_blank"><div class="recommendation-item-image-wrap"><img src="./keyboard_10.1_files/2509351553824931.jpg" alt="BH230" class="recommendation-item-image"></div><div class="recommendation-item-info-wrap"><p class="recommendation-item-info recommendation-item-info-model">BH230</p><p class="recommendation-item-info recommendation-item-info-title">Wireless Headset</p></div></a><div class="recommendation-item-colors"><ul class="recommendation-item-colors-list"><li class="recommendation-item-color" title="Black"><a href="https://www.a4tech.com/product.aspx?tid=43&amp;id=383&amp;cid=612" target="_blank"><img id="612" src="./keyboard_10.1_files/2509383149323200.jpg" alt="Black"></a></li><li class="recommendation-item-color" title="white"><a href="https://www.a4tech.com/product.aspx?tid=43&amp;id=383&amp;cid=611" target="_blank"><img id="611" src="./keyboard_10.1_files/2509380728529860.jpg" alt="white"></a></li></ul></div></div></li><li class="recommendation-item"><div class="recommendation-item-wrap"><a href="https://www.a4tech.com/product.aspx?tid=17&amp;id=265" class="recommendation-item-link" target="_blank"><div class="recommendation-item-image-wrap"><img src="./keyboard_10.1_files/1403044076277032.jpg" alt="FH200i" class="recommendation-item-image"></div><div class="recommendation-item-info-wrap"><p class="recommendation-item-info recommendation-item-info-model">FH200i</p><p class="recommendation-item-info recommendation-item-info-title">Conference Headphone</p></div></a><div class="recommendation-item-colors"><ul class="recommendation-item-colors-list"><li class="recommendation-item-color" title="Blue"><a href="https://www.a4tech.com/product.aspx?tid=17&amp;id=265&amp;cid=332" target="_blank"><img id="332" src="./keyboard_10.1_files/0610435235953314.jpg" alt="Blue"></a></li><li class="recommendation-item-color" title="Grey"><a href="https://www.a4tech.com/product.aspx?tid=17&amp;id=265&amp;cid=393" target="_blank"><img id="393" src="./keyboard_10.1_files/2703412606331879.jpg" alt="Grey"></a></li></ul></div></div></li><li class="recommendation-item"><div class="recommendation-item-wrap"><a href="https://www.a4tech.com/product.aspx?tid=43&amp;id=360" class="recommendation-item-link" target="_blank"><div class="recommendation-item-image-wrap"><img src="./keyboard_10.1_files/2709472650981681.jpg" alt="BH220" class="recommendation-item-image"></div><div class="recommendation-item-info-wrap"><p class="recommendation-item-info recommendation-item-info-model">BH220</p><p class="recommendation-item-info recommendation-item-info-title">Wireless Headset</p></div></a><div class="recommendation-item-colors"><ul class="recommendation-item-colors-list"><li class="recommendation-item-color" title="BH220 Black"><a href="https://www.a4tech.com/product.aspx?tid=43&amp;id=360&amp;cid=551" target="_blank"><img id="551" src="./keyboard_10.1_files/2709570533497083.jpg" alt="BH220 Black"></a></li><li class="recommendation-item-color" title="BH220 White"><a href="https://www.a4tech.com/product.aspx?tid=43&amp;id=360&amp;cid=550" target="_blank"><img id="550" src="./keyboard_10.1_files/2709563965994407.jpg" alt="BH220 White"></a></li><li class="recommendation-item-color" title="BH220 Beige"><a href="https://www.a4tech.com/product.aspx?tid=43&amp;id=360&amp;cid=549" target="_blank"><img id="549" src="./keyboard_10.1_files/2709560440398837.jpg" alt="BH220 Beige"></a></li><li class="recommendation-item-color" title="BH220 Blue"><a href="https://www.a4tech.com/product.aspx?tid=43&amp;id=360&amp;cid=548" target="_blank"><img id="548" src="./keyboard_10.1_files/2709550264199935.png" alt="BH220 Blue"></a></li></ul></div></div></li><li class="recommendation-item"><div class="recommendation-item-wrap"><a href="https://www.a4tech.com/product.aspx?tid=42&amp;id=314" class="recommendation-item-link" target="_blank"><div class="recommendation-item-image-wrap"><img src="./keyboard_10.1_files/2509134061447188.jpg" alt="B27" class="recommendation-item-image"></div><div class="recommendation-item-info-wrap"><p class="recommendation-item-info recommendation-item-info-model">B27</p><p class="recommendation-item-info recommendation-item-info-title">True Wireless Earphone</p></div></a><div class="recommendation-item-colors"><ul class="recommendation-item-colors-list"><li class="recommendation-item-color" title="B27 Ash Grey"><a href="https://www.a4tech.com/product.aspx?tid=42&amp;id=314&amp;cid=459" target="_blank"><img id="459" src="./keyboard_10.1_files/2509143668075317.jpg" alt="B27 Ash Grey"></a></li><li class="recommendation-item-color" title="B27 Grayish White"><a href="https://www.a4tech.com/product.aspx?tid=42&amp;id=314&amp;cid=461" target="_blank"><img id="461" src="./keyboard_10.1_files/2509151952137205.jpg" alt="B27 Grayish White"></a></li><li class="recommendation-item-color" title="B27 Baby Pink"><a href="https://www.a4tech.com/product.aspx?tid=42&amp;id=314&amp;cid=460" target="_blank"><img id="460" src="./keyboard_10.1_files/2509150047193920.jpg" alt="B27 Baby Pink"></a></li></ul></div></div></li><li class="recommendation-item"><div class="recommendation-item-wrap"><a href="https://www.a4tech.com/product.aspx?tid=46&amp;id=366" class="recommendation-item-link" target="_blank"><div class="recommendation-item-image-wrap"><img src="./keyboard_10.1_files/1109454012426059.jpg" alt="FB45CS Air2" class="recommendation-item-image"></div><div class="recommendation-item-info-wrap"><p class="recommendation-item-info recommendation-item-info-model">FB45CS Air2</p><p class="recommendation-item-info recommendation-item-info-title">Dual Mode Mouse</p></div></a><div class="recommendation-item-colors"><ul class="recommendation-item-colors-list"><li class="recommendation-item-color" title="Stone Grey"><a href="https://www.a4tech.com/product.aspx?tid=46&amp;id=366&amp;cid=565" target="_blank"><img id="565" src="./keyboard_10.1_files/1109481793626206.jpg" alt="Stone Grey"></a></li><li class="recommendation-item-color" title="Silver White"><a href="https://www.a4tech.com/product.aspx?tid=46&amp;id=366&amp;cid=563" target="_blank"><img id="563" src="./keyboard_10.1_files/1109474084424808.jpg" alt="Silver White"></a></li><li class="recommendation-item-color" title="Cream Beige"><a href="https://www.a4tech.com/product.aspx?tid=46&amp;id=366&amp;cid=562" target="_blank"><img id="562" src="./keyboard_10.1_files/1109471326928815.jpg" alt="Cream Beige"></a></li></ul></div></div></li><li class="recommendation-item"><div class="recommendation-item-wrap"><a href="https://www.a4tech.com/product.aspx?tid=43&amp;id=361" class="recommendation-item-link" target="_blank"><div class="recommendation-item-image-wrap"><img src="./keyboard_10.1_files/1309225366688567.jpg" alt="BH350C" class="recommendation-item-image"></div><div class="recommendation-item-info-wrap"><p class="recommendation-item-info recommendation-item-info-model">BH350C</p><p class="recommendation-item-info recommendation-item-info-title">Wireless Headset</p></div></a><div class="recommendation-item-colors"><ul class="recommendation-item-colors-list"><li class="recommendation-item-color" title="Black"><a href="https://www.a4tech.com/product.aspx?tid=43&amp;id=361&amp;cid=553" target="_blank"><img id="553" src="./keyboard_10.1_files/1309283312997129.jpg" alt="Black"></a></li><li class="recommendation-item-color" title="White"><a href="https://www.a4tech.com/product.aspx?tid=43&amp;id=361&amp;cid=552" target="_blank"><img id="552" src="./keyboard_10.1_files/1309280625998735.jpg" alt="White"></a></li></ul></div></div></li>
+                </ul>
+            </div>
+            <div class="recommendation-left recommendation-control"><i class="layui-icon layui-icon-left"></i></div>
+            <div class="recommendation-right recommendation-control"><i class="layui-icon layui-icon-right"></i></div>
+        </div>
+    </div>
+</div>
+	<!--  -->
+<div id="footer-placeholder" style="height: 343px;"></div>
+<div id="footer">
+	<div class="footers">
+		<div class="footMenus">
+			<section>
+				<div class="footMenu"><ul><li class="footer-headline"><a href="https://www.a4tech.com/products.aspx?tid=1">Mouse</a></li><li class="footer-vessel"><a href="https://www.a4tech.com/products.aspx?tid=46"><p>Bluetooth + 2.4G</p></a></li><li class="footer-vessel"><a href="https://www.a4tech.com/products.aspx?tid=3"><p>2.4G Wireless Mouse</p></a></li><li class="footer-vessel"><a href="https://www.a4tech.com/products.aspx?tid=9"><p>Wired Mouse</p></a></li></ul></div><div class="footMenu"><ul><li class="footer-headline"><a href="https://www.a4tech.com/products.aspx?tid=2">Keyboard</a></li><li class="footer-vessel"><a href="https://www.a4tech.com/products.aspx?tid=37"><p>Bluetooth / 2.4G Keyboard</p></a></li><li class="footer-vessel"><a href="https://www.a4tech.com/products.aspx?tid=10"><p>Wired Keyboard</p></a></li></ul></div><div class="footMenu"><ul><li class="footer-headline"><a href="https://www.a4tech.com/products.aspx?tid=13">Desktop</a></li><li class="footer-vessel"><a href="https://www.a4tech.com/products.aspx?tid=26"><p>Bluetooth / 2.4G Desktop</p></a></li><li class="footer-vessel"><a href="https://www.a4tech.com/products.aspx?tid=25"><p>Wired Desktop</p></a></li></ul></div><div class="footMenu"><ul><li class="footer-headline"><a href="https://www.a4tech.com/products.aspx?tid=6">Audio</a></li><li class="footer-vessel"><a href="https://www.a4tech.com/products.aspx?tid=43"><p>Bluetooth Headphone</p></a></li><li class="footer-vessel"><a href="https://www.a4tech.com/products.aspx?tid=17"><p>Headphone</p></a></li><li class="footer-vessel"><a href="https://www.a4tech.com/products.aspx?tid=42"><p>TWS</p></a></li><li class="footer-vessel"><a href="https://www.a4tech.com/products.aspx?tid=16"><p>Earphone</p></a></li><li class="footer-vessel"><a href="https://www.a4tech.com/products.aspx?tid=41"><p>Cable</p></a></li></ul></div><div class="footMenu"><ul><li class="footer-headline"><a href="https://www.a4tech.com/products.aspx?tid=5">Webcam</a></li><li class="footer-vessel"><a href="https://www.a4tech.com/products.aspx?tid=36"><p>UHD 2160P(4K)</p></a></li><li class="footer-vessel"><a href="https://www.a4tech.com/products.aspx?tid=21"><p>HD 1080P</p></a></li><li class="footer-vessel"><a href="https://www.a4tech.com/products.aspx?tid=34"><p>HD 720P</p></a></li><li class="footer-vessel"><a href="https://www.a4tech.com/products.aspx?tid=22"><p>480P</p></a></li></ul></div><div class="footMenu"><ul><li class="footer-headline"><a href="https://www.a4tech.com/products.aspx?tid=27">Device</a></li><li class="footer-vessel"><a href="https://www.a4tech.com/products.aspx?tid=28"><p>USB HUB</p></a></li><li class="footer-vessel"><a href="https://www.a4tech.com/products.aspx?tid=38"><p>Mouse Pad</p></a></li><li class="footer-vessel"><a href="https://www.a4tech.com/products.aspx?tid=33"><p>Laser Pen</p></a></li><li class="footer-vessel"><a href="https://www.a4tech.com/products.aspx?tid=29"><p>Microphone</p></a></li></ul></div>
+				<div class="footMenu help">
+					<ul>
+						<li class="footer-headline">
+							<p>SUPPORT</p>
+						</li>
+						<li class="footer-vessel">
+							<a href="https://www.a4tech.com/contactUs.aspx"><p>Contact Us</p></a>
+						</li>
+						<li class="footer-vessel">
+							<a href="https://www.a4tech.com/techSupport.aspx"><p>Tech Support</p></a>
+						</li>
+						<li class="footer-vessel">
+							<a href="https://www.a4tech.com/FAQ.aspx"><p>FAQs</p></a>
+						</li>
+						<li class="footer-vessel">
+							<a href="https://www.a4tech.com/download.aspx"><p>Download</p></a>
+						</li>
+					</ul>
+				</div>
+				<div class="footMenu help">
+					<ul>
+						<li class="footer-headline">
+							<p>COMPANY</p>
+						</li>
+						<li class="footer-vessel">
+							<a href="https://www.a4tech.com/aboutUs.aspx"><p>About Us</p></a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+		<footer>  
+			<div class="cen">
+			    <span>A4TECH</span>
+				  
+				  
+				<span>  
+					<a href="https://www.a4tech.com/privacy.aspx">Privacy Policy</a>.  
+				</span>  
+				<span>  
+					<a href="https://www.a4tech.com/TermOfUse.aspx">Term of Use</a>.  
+					&nbsp;&nbsp;  
+					<span id="cnzz_stat_icon_3793175"></span>  
+				</span>
+				<span>  
+					All Rights Reserved © <span id="currentYear">2025</span>  
+				</span>
+				
+			</div>  
+		</footer>  
+		
+		<script type="text/javascript">  
+			// 更新当前年份  
+			document.getElementById("currentYear").textContent = new Date().getFullYear();  
+		</script>
+	</div>
+</div>
+
+	<script src="./keyboard_10.1_files/recommend.js.download"></script><!-- 推荐 -->
+	<script src="./keyboard_10.1_files/product.js.download"></script>
+	<script src="./keyboard_10.1_files/iframe_api"></script> <!-- YouTube Iframe API -->
+	<script type="text/javascript">
+		var videoData = '';// 视频ID
+		var player;// YouTube播放器实例
+		// 当YouTube Iframe API准备好时调用此函数
+		function onYouTubeIframeAPIReady() {
+			// 创建一个新的YouTube播放器实例
+			player = new YT.Player('LocalizeVideo', {
+				height: '100%',
+				width: '100%',
+				videoId: videoData,
+				playerVars: {
+					'rel': 0, // 关闭相关视频
+				},
+				events: {
+					'onReady': onPlayerReady,
+					'onStateChange': onPlayerStateChange
+				}
+			});
+		}
+		// 当播放器准备好后调用的函数
+		function onPlayerReady(event) {
+			event.target.playVideo(); // 开始播放视频
+		}
+		// 当播放器状态改变时调用的函数
+		function onPlayerStateChange(event) {
+			// 如果视频播放结束
+			if (event.data == YT.PlayerState.ENDED) {
+				player.stopVideo();
+			}
+		}
+	</script>
+
+
+</body></html>

@@ -1,0 +1,359 @@
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #120808;
+    padding: 0.8rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.logo {
+    height: 45px;
+    width: auto;
+}
+
+/* Search Container */
+.search-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 12px 50px 12px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.search-input:focus {
+    background-color: #ffffff;
+    box-shadow: 0 0 0 2px rgba(255, 184, 0, 0.3);
+}
+
+.search-input::placeholder {
+    color: #999;
+}
+
+.search-btn {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ffb800;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: #e5a600;
+}
+
+.search-btn i {
+    color: #2d2d2d;
+    font-size: 16px;
+}
+
+/* Navbar Right Section */
+.navbar-right {
+    gap: 0;
+}
+
+/* Contact Items */
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-right: 1px solid #444;
+    padding-right: 20px;
+}
+
+.contact-label {
+    color: #ffb800;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.contact-info i {
+    color: #ffb800;
+    font-size: 16px;
+}
+
+.contact-number {
+    white-space: nowrap;
+}
+
+/* Auth Section */
+.auth-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-right: 1px solid #444;
+    padding-right: 20px;
+}
+
+.auth-link {
+    color: #ffb800;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 3px;
+}
+
+.auth-link:hover {
+    color: #e5a600;
+}
+
+.account-dropdown {
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.account-dropdown:hover {
+    color: #ffb800;
+}
+
+.account-dropdown i {
+    font-size: 12px;
+}
+
+/* Cart Section */
+.cart-link {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    padding: 8px 15px;
+    transition: color 0.3s ease;
+}
+
+.cart-link:hover {
+    color: #ffb800;
+}
+
+.cart-link i {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.cart-text {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cart-badge {
+    position: absolute;
+    top: 2px;
+    right: 8px;
+    background-color: #ff4444;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 10px;
+    min-width: 18px;
+    text-align: center;
+}
+
+/* Mobile Responsive */
+@media (max-width: 991px) {
+    .search-container {
+        max-width: 100%;
+        margin: 15px 0;
+    }
+
+    .navbar-right {
+        flex-direction: column;
+        align-items: flex-start !important;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .contact-item,
+    .auth-section {
+        border-right: none;
+        border-bottom: 1px solid #444;
+        padding-right: 0;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+
+    .cart-section {
+        width: 100%;
+    }
+
+    .cart-link {
+        padding: 8px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo {
+        height: 35px;
+    }
+
+    .search-input {
+        padding: 10px 45px 10px 15px;
+        font-size: 13px;
+    }
+
+    .search-btn {
+        width: 35px;
+        height: 35px;
+    }
+
+    .contact-info,
+    .account-dropdown,
+    .cart-text {
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* navabr line */
+
+/* Container for all features */
+#back{
+    background-color: #a6737338 !important;
+    /* width: 95%; */
+}
+.features-container {
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 1%;
+    /* margin-bottom: 2%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5f5f569 !important;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Individual feature item */
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Icon container */
+.feature-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Delivery truck icon */
+.icon-delivery {
+    fill: none;
+    stroke: #666666;
+}
+
+/* Warranty shield icon */
+.icon-warranty {
+    fill: none;
+    stroke: #666666;
+}
+
+/* Payment card icon */
+.icon-payment {
+    fill: none;
+    stroke: #666666;
+}
+
+/* Returns/shopping bag icon */
+.icon-returns {
+    fill: none;
+    stroke: #666666;
+}
+
+/* Text group for warranty (contains label + text) */
+.feature-text-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+/* Small label text (UP TO) */
+.feature-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: #666666;
+    letter-spacing: 0.5px;
+}
+
+/* Main feature text */
+.feature-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .features-container {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .feature-item {
+        flex-basis: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .features-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .feature-item {
+        width: 100%;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,132 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.category-banner {
+width: 100%;
+height: 200px;
+background: linear-gradient(135deg, #93c9fb 0%, #57f0f5 100%);
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 60px;
+position: relative;
+overflow: hidden;
+}
+
+.banner-content {
+z-index: 2;
+color: white;
+max-width: 500px;
+}
+
+.banner-content h1 {
+font-size: 48px;
+font-weight: bold;
+margin-bottom: 10px;
+animation: slideInLeft 0.8s ease;
+}
+
+.banner-content p {
+font-size: 18px;
+opacity: 0.9;
+animation: slideInLeft 1s ease;
+}
+
+.banner-image {
+z-index: 2;
+}
+
+.banner-image img {
+width: 300px;
+height: auto;
+filter: drop-shadow(0 10px 30px rgba(0,0,0,0.3));
+background: transparent;
+}
+
+/* Animated Background Circles */
+.circle {
+position: absolute;
+border-radius: 50%;
+background: rgba(255, 255, 255, 0.2);
+animation: pulse 4s ease-in-out infinite;
+}
+
+.circle1 {
+width: 300px;
+height: 300px;
+top: -100px;
+right: 100px;
+animation-delay: 0s;
+}
+
+.circle2 {
+width: 200px;
+height: 200px;
+bottom: -50px;
+left: 50px;
+animation-delay: 1s;
+}
+
+.circle3 {
+width: 150px;
+height: 150px;
+top: 50%;
+left: 30%;
+animation-delay: 2s;
+}
+
+@keyframes slideInLeft {
+from {
+opacity: 0;
+transform: translateX(-50px);
+}
+to {
+opacity: 1;
+transform: translateX(0);
+}
+}
+
+@keyframes float {
+0%, 100% {
+transform: translateY(0px);
+}
+50% {
+transform: translateY(-20px);
+}
+}
+
+@keyframes pulse {
+0%, 100% {
+transform: scale(1);
+opacity: 0.1;
+}
+50% {
+transform: scale(1.2);
+opacity: 0.2;
+}
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+.category-banner {
+height: 150px;
+padding: 0 20px;
+justify-content: center;
+text-align: center;
+}
+
+.banner-content h1 {
+font-size: 32px;
+}
+
+.banner-content p {
+font-size: 14px;
+}
+
+.banner-image {
+display: none;
+}
+}

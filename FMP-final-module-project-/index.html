@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- firebase dataBase -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- external Css links -->
+    <link rel="stylesheet" href="home/home_page.css">
+    <link rel="stylesheet" href="home/nav/nav.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Navbar Opening -->
+    <nav id="Navbar" class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid px-4">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="images/a4logo_2.svg" alt="PhoneBot Logo" class="logo" style="height: 30px;">
+            </a>
+
+            <!-- Mobile Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Content -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <!-- Search Bar -->
+                <div class="search-container mx-auto">
+                    <input type="text" class="search-input" placeholder="I'm shopping for...">
+                    <button class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+
+                <!-- Right Side Items -->
+                <div class="navbar-right d-flex align-items-center ms-auto">
+                    <!-- Call Us -->
+                    <div class="contact-item me-4">
+                        <span class="contact-label">Call us</span>
+                        <div class="contact-info">
+                            <i class="fas fa-phone-alt me-2"></i>
+                            <span class="contact-number">(03) 94626936</span>
+                        </div>
+                    </div>
+
+                    <!-- WhatsApp -->
+                    <div class="contact-item me-4">
+                        <span class="contact-label">On Whatsapp</span>
+                        <div class="contact-info">
+                            <i class="fab fa-whatsapp me-2"></i>
+                            <span class="contact-number">+61394626936</span>
+                        </div>
+                    </div>
+
+                    <!-- Login/Register -->
+                    <div class="auth-section me-4">
+                        <a href="#" class="auth-link">Login / Register</a>
+                        <div class="account-dropdown">
+                            <span>My Account</span>
+                            <i class="fas fa-chevron-down ms-1"></i>
+                        </div>
+                    </div>
+
+                    <!-- Cart -->
+                    <div class="cart-section">
+                        <a href="Products/mouse/mouse_cart/mouse_cart.html" class="cart-link">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-text">Cart</span>
+                            <span id="cart_qunatity_num" class="cart-badge">0</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navbar Closing -->
+
+    <!-- navbar_line OPening -->
+    <a href="">
+        <img width="100%" src="images/navbar_line.png" alt="">
+    </a>
+    <!-- navbar_line Closing -->
+
+    <!-- Carousel Openig -->
+
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/carosel_1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/carosel_2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/carosel_3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <!-- Carousel Closing -->
+
+    <!-- Section one opening -->
+
+    <h1 class="m-5" style="text-align: center;">Shop All Category</h1>
+
+    <!-- Cards  -->
+
+
+    <!-- ------------------------------------------------------------ -->
+
+
+
+
+
+    <div id="nav_product" class="d-flex flex-wrap justify-content-center m-5">
+
+        <!-- Card 1 -->
+        <a href="Products/device/device_category/device_category.html" class="text-decoration-none">
+            <div class="custom-card m-4" onmouseover="detailed_button('btn1')"
+                onmouseout="detailed_button_close('btn1')">
+                <div class="img-area">
+                    <img src="images/Device/main_device.jpg" alt="Mouse">
+                </div>
+                <div class="card-info">
+                    <h5>device</h5>
+                    <div id="btn1" class="hidden-btn d-none">
+                        <a href="Products/device/device_category/device_category.html">
+                            <button class="btn">Explore</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <!-- Card 2 -->
+        <a href="Products/coolingpad/coolingpad_category/coolingpad_category.html" class="text-decoration-none">
+            <div class="custom-card m-4" onmouseover="detailed_button('btn2')"
+                onmouseout="detailed_button_close('btn2')">
+                <div class="img-area">
+                    <img src="images/cooling_pads/pad_1.png" alt="Keyboard">
+                </div>
+                <div class="card-info">
+                    <h5>Cooling Pad</h5>
+                    <div id="btn2" class="hidden-btn d-none">
+                        <a href="Products/coolingpad/coolingpad_category/coolingpad_category.html">
+                            <button class="btn">Explore</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <!-- Card 3 -->
+        <a href="Products/monitors/monitor_category/monitor_category.html" class="text-decoration-none">
+            <div class="custom-card m-4" onmouseover="detailed_button('btn3')"
+                onmouseout="detailed_button_close('btn3')">
+                <div class="img-area">
+                    <img src="images/external_monitors/screen_1.jpg" alt="Desktop">
+                </div>
+                <div class="card-info">
+                    <h5>Monitor</h5>
+                    <div id="btn3" class="hidden-btn d-none">
+                        <a href="Products/monitors/monitor_category/monitor_category.html">
+                            <button class="btn">Explore</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <!-- Card 4 -->
+        <a href="Products/webcam/webcam_category/webcam_category.html" class="text-decoration-none">
+            <div class="custom-card m-4" onmouseover="detailed_button('btn4')"
+                onmouseout="detailed_button_close('btn4')">
+                <div class="img-area">
+                    <img src="images/web_cam/main_webcam.jpg" alt="Audio">
+                </div>
+                <div class="card-info">
+                    <h5>Webcam</h5>
+                    <div id="btn4" class="hidden-btn d-none">
+                        <a href="Products/webcam/webcam_category/webcam_category.html">
+                            <button class="btn">Explore</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+    </div>
+
+    <div class="d-flex flex-wrap justify-content-center m-5">
+
+        <!-- Card 5 -->
+        <a href="Products/mouse/mouse_category/mouse_category.html" class="text-decoration-none">
+            <div class="custom-card m-4" onmouseover="detailed_button('btn5')"
+                onmouseout="detailed_button_close('btn5')">
+                <div class="img-area">
+                    <img src="images/mouse/main_mouse_.jpg" alt="Mouse">
+                </div>
+                <div class="card-info">
+                    <h5>Mouse</h5>
+                    <div id="btn5" class="hidden-btn d-none">
+                        <a href="Products/mouse/mouse_category/mouse_category.html">
+                            <button class="btn">Explore</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <!-- Card 6 -->
+        <a href="Products/keyboard/keyboard_category/keyboard_category.html" class="text-decoration-none">
+            <div class="custom-card m-4" onmouseover="detailed_button('btn6')"
+                onmouseout="detailed_button_close('btn6')">
+                <div class="img-area">
+                    <img src="images/keyboard/main_.jpg" alt="Keyboard">
+                </div>
+                <div class="card-info">
+                    <h5>Keyboard</h5>
+                    <div id="btn6" class="hidden-btn d-none">
+                        <a href="Products/keyboard/keyboard_category/keyboard_category.html">
+                            <button class="btn">Explore</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <!-- Card 7 -->
+        <a href="Products/dekstop/dekstop_category/dekstop_category.html" class="text-decoration-none">
+            <div class="custom-card m-4" onmouseover="detailed_button('btn7')"
+                onmouseout="detailed_button_close('btn7')">
+                <div class="img-area">
+                    <img src="images/Dekstop.jpg" alt="Desktop">
+                </div>
+                <div class="card-info">
+                    <h5>Desktop</h5>
+                    <div id="btn7" class="hidden-btn d-none">
+                        <a href="Products/dekstop/dekstop_category/dekstop_category.html">
+                            <button class="btn">Explore</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <!-- Card 8 -->
+        <a href="Products/audio/audio_category/audio_category.html" class="text-decoration-none">
+            <div class="custom-card m-4" onmouseover="detailed_button('btn8')"
+                onmouseout="detailed_button_close('btn8')">
+                <div class="img-area">
+                    <img src="images/audio/main_audio.jpg" alt="Audio">
+                </div>
+                <div class="card-info">
+                    <h5>Audio</h5>
+                    <div id="btn8" class="hidden-btn d-none">
+                        <a href="Products/audio/audio_category/audio_category.html">
+                            <button class="btn">Explore</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+    </div>
+
+
+
+
+    <!-- -------------------------------CLOSE------------------------------------------------------- -->
+
+    <!-- Section one Closing -->
+
+
+    <!-- Section FEATURED PRODUCT 2 OPENING -->
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+
+        <div class="d-flex flex-wrap justify-content-center">
+
+            <!-- Product 1 -->
+            <a href="Products/mouse/mouse_detailed/mouse_deatiled_page.html?id=41" class="text-decoration-none">
+                <div class="feature-card">
+                    <img src="images/mouse/main_mouse_.jpg" alt="Mouse">
+                    <div class="feature-info">
+                        <h5>Wireless Mouse</h5>
+                        <p>Bluetooth / Rechargeable</p>
+                        <div class="price">$19.99</div>
+                        <a href="Products/mouse/mouse_detailed/mouse_deatiled_page.html?id=41">
+                            <button class="buy-btn">Buy Now</button>
+                        </a>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Product 2 -->
+            <a href="Products/keyboard/keyboard_detailed/keyboard_detailed_page.html?id=55" class="text-decoration-none">
+                <div class="feature-card">
+                    <img src="images/keyboard/keyboard_5.jpg" alt="Keyboard">
+                    <div class="feature-info">
+                        <h5>Mechanical Keyboard</h5>
+                        <p>RGB Backlit / Blue Switch</p>
+                        <div class="price">$49.99</div>
+                        <a href="Products/keyboard/keyboard_detailed/keyboard_detailed_page.html?id=55">
+                            <button class="buy-btn">Buy Now</button>
+                        </a>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Product 3 -->
+            <a href="Products/dekstop/dekstop_detailed/dekstop_detailed_page.html?id=63" class="text-decoration-none">
+                <div class="feature-card">
+                    <img src="images/Dekstop/dekstop_3.jpg" alt="Desktop">
+                    <div class="feature-info">
+                        <h5>Gaming Desktop</h5>
+                        <p>Intel i5 / 16GB RAM</p>
+                        <div class="price">$899.00</div>
+                        <a href="Products/dekstop/dekstop_detailed/dekstop_detailed_page.html?id=63">
+                            <button class="buy-btn">Buy Now</button>
+                        </a>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Product 4 -->
+            <a href="Products/audio/audio_detailed/audio_detailed_page.html?id=71" class="text-decoration-none">
+                <div class="feature-card">
+                    <img src="images/audio/audio_1.jpg" alt="Headphones">
+                    <div class="feature-info">
+                        <h5>Noise Cancel Headphones</h5>
+                        <p>Wireless / Deep Bass</p>
+                        <div class="price">$79.99</div>
+                        <a href="Products/audio/audio_detailed/audio_detailed_page.html?id=71">
+                            <button class="buy-btn">Buy Now</button>
+                        </a>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- Section FEATURED PRODUCT 2 CLOSING -->
+
+
+
+
+    <!-- footer opening -->
+
+    <div id="footer" class="d-flex flex-wrap text-light justify-content-evenly"
+        style="height: 450px; background-color: #1e1e1e;">
+
+
+        <div id="main_footer_two" class="d-flex" style="border-bottom: 0.1px solid #696969">
+            <div id="sub_footer" class="col-4 mx-auto" style="margin-top: 100px;">
+                <img id="sub_footer" class="mb-4" src="images/a4logo_2.svg" alt="" style=" height: 30px;">
+                <p id="sub_footer" class="w-75" style="color: #C1C1C1; font-size: 15px;">Sed ut perspiciatis unde omnis
+                    iste natus
+                    error
+                    sit
+                    voluptatem accusantium doloremque
+                    laudantium, totam
+                    rem aperiam.</p>
+                <i id="sub_footer" class="fa-brands fa-facebook-f m-1"></i>
+                <i id="sub_footer" class="fa-brands fa-instagram m-1"></i>
+                <i id="sub_footer" class="fa-brands fa-twitter m-1"></i>
+                <i id="sub_footer" class="fa-brands fa-youtube m-1"></i>
+            </div>
+
+            <div class="col-2 sub_footer_two_div" style="margin-top: 100px;">
+                <h3 style="font-size: 20px; font-weight: 350; color: #FFFFFF;">Navigation</h3>
+                <div style="color: #C1C1C1; font-size: 14px;">
+                    <a class="text-decoration-none" href="#nav_product" style="color: #c1c1c1; ;">Home</a><br><br>
+                    <a class="text-decoration-none" href="#" style="color: #c1c1c1; ;">Products</a><br><br>
+                    <a class="text-decoration-none" href="#" style="color: #c1c1c1; ;">Featured</a><br><br>
+                    <a class="text-decoration-none" href="#" style="color: #c1c1c1; ;">Blog</a><br><br>
+                    <a class="text-decoration-none" href="#" style="color: #c1c1c1; ;">Contact</a>
+                </div>
+            </div>
+
+
+            <div class="col-2 sub_footer_third_div" style="margin-top: 100px;">
+                <h3 style="font-size: 20px; font-weight: 350; color: #FFFFFF;">Contact</h3>
+                <div style="color: #C1C1C1; font-size: 14px;">
+                    <p>87/A, Green lane, CA 6732</p>
+                    <p>Real State</p>
+                    <p></p>
+                    <p>+10 236 327 3782</p>
+                </div>
+
+            </div>
+
+            <div class="col-3" style="margin-top: 100px;">
+                <h3 style="font-size: 20px; font-weight: 350; color: #FFFFFF;">Subscribe Newsletter</h3>
+                <!-- <input placeholder="Enter Your Email" type=""><br> -->
+
+                <div class="d-grid gap-3 col-8 mb-3">
+                    <input placeholder="Enter Your Email"
+                        class="p-1 btn btn-dark border-1 border-light rounded-0"></input>
+                </div>
+
+                <div class="d-grid gap-2 col-8">
+                    <button class="btn btn-dark rounded-0 border-1 border-light" type="button">Subscibe</button>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="mt-4">
+            <p style="color: #afaaaa;">Copyright ©2025 All rights reserved | This template is made with 🤍 by
+                <span style="color: #FFFFFF;">Colorlib</span>
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Footer Closing -->
+
+    <script src="home/home_page.js"></script>
+    <script src="Products/mouse/mouse_detailed/mouse_deatiled_page.js"></script>
+    <script src="Products/mouse/mouse_detailed/mouse_deatiled_page.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
