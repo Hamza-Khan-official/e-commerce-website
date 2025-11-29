@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- firebase dataBase -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="/home/home_page.css"> -->
+    <link rel="stylesheet" href="../../mouse/mouse_category/mouse_category.css">
+
+    <link rel="stylesheet" href="../../../home/nav/nav.css">
+    <link rel="stylesheet" href="../../../home/home_page.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Navbar Opening -->
+    <!-- Navbar -->
+    <nav id="Navbar" class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid px-4">
+            <!-- Logo -->
+            <a class="navbar-brand" href="../../../index.html">
+                <img src="../../../images/a4logo_2.svg" alt="PhoneBot Logo" class="logo" style="height: 30px;">
+            </a>
+
+            <!-- Mobile Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Content -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <!-- Search Bar -->
+                <div class="search-container mx-auto">
+                    <input type="text" class="search-input" placeholder="I'm shopping for...">
+                    <button class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+
+                <!-- Right Side Items -->
+                <div class="navbar-right d-flex align-items-center ms-auto">
+                    <!-- Call Us -->
+                    <div class="contact-item me-4">
+                        <span class="contact-label">Call us</span>
+                        <div class="contact-info">
+                            <i class="fas fa-phone-alt me-2"></i>
+                            <span class="contact-number">(03) 94626936</span>
+                        </div>
+                    </div>
+
+                    <!-- WhatsApp -->
+                    <div class="contact-item me-4">
+                        <span class="contact-label">On Whatsapp</span>
+                        <div class="contact-info">
+                            <i class="fab fa-whatsapp me-2"></i>
+                            <span class="contact-number">+61394626936</span>
+                        </div>
+                    </div>
+
+                    <!-- Login/Register -->
+                    <div class="auth-section me-4">
+                        <a href="#" class="auth-link">Login / Register</a>
+                        <div class="account-dropdown">
+                            <span>My Account</span>
+                            <i class="fas fa-chevron-down ms-1"></i>
+                        </div>
+                    </div>
+
+                    <!-- Cart -->
+                    <div class="cart-section">
+                        <a href="../../mouse/mouse_cart/mouse_cart.html" class="cart-link">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-text">Cart</span>
+                            <span id="cart_qunatity_num" class="cart-badge">0</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navbar Closing -->
+
+
+    <!-- Carousel Openig -->
+
+
+
+
+
+    <!-- Carousel Closing -->
+
+
+    <!-- category opening -->
+
+
+
+
+
+
+
+    <h2 class="category-title">Category</h2>
+
+    <div class="product-grid">
+
+        <!-- one -->
+        <a href="../webcam_detailed/webcam_detailed_page.html?id=31" class="text-decoration-none d-block">
+            <div class="product-card position-relative">
+                <span class="badge">Bluetooth</span>
+                <img src="../../../images/web_cam/webcam_1.jpg" alt="Webcam 1">
+                <h5>FG35C Air</h5>
+                <button class="btn btn-outline-dark">View Details</button>
+            </div>
+        </a>
+
+        <!-- two -->
+        <a href="../webcam_detailed/webcam_detailed_page.html?id=32" class="text-decoration-none d-block">
+            <div class="product-card position-relative">
+                <span class="badge">Wired</span>
+                <img src="../../../images/web_cam/webcam_2.jpg" alt="Webcam 2">
+                <h5>FG35C / FG35C Pro</h5>
+                <button class="btn btn-outline-dark">View Details</button>
+            </div>
+        </a>
+
+        <!-- three -->
+        <a href="../webcam_detailed/webcam_detailed_page.html?id=33" class="text-decoration-none d-block">
+            <div class="product-card position-relative">
+                <span class="badge">Bluetooth</span>
+                <img src="../../../images/web_cam/webcam_3.jpg" alt="Webcam 3">
+                <h5>FG20 / FG20K</h5>
+                <button class="btn btn-outline-dark">View Details</button>
+            </div>
+        </a>
+
+        <!-- four -->
+        <a href="../webcam_detailed/webcam_detailed_page.html?id=34" class="text-decoration-none d-block">
+            <div class="product-card position-relative">
+                <span class="badge">Wired</span>
+                <img src="../../../images/web_cam/webcam_4.jpg" alt="Webcam 4">
+                <h5>FG35 Air</h5>
+                <button class="btn btn-outline-dark">View Details</button>
+            </div>
+        </a>
+
+        <!-- five -->
+        <a href="../webcam_detailed/webcam_detailed_page.html?id=35" class="text-decoration-none d-block">
+            <div class="product-card position-relative">
+                <span class="badge">Bluetooth</span>
+                <img src="../../../images/web_cam/webcam_5.jpg" alt="Webcam 5">
+                <h5>FG25 / FG25K</h5>
+                <button class="btn btn-outline-dark">View Details</button>
+            </div>
+        </a>
+
+        <!-- six -->
+        <a href="../webcam_detailed/webcam_detailed_page.html?id=36" class="text-decoration-none d-block">
+            <div class="product-card position-relative">
+                <span class="badge">Bluetooth</span>
+                <img src="../../../images/web_cam/webcam_6.jpg" alt="Webcam 6">
+                <h5>FG25 / FG25K</h5>
+                <button class="btn btn-outline-dark">View Details</button>
+            </div>
+        </a>
+
+        <!-- seven -->
+        <a href="../webcam_detailed/webcam_detailed_page.html?id=37" class="text-decoration-none d-block">
+            <div class="product-card position-relative">
+                <span class="badge">Bluetooth</span>
+                <img src="../../../images/web_cam/webcam_7.jpg" alt="Webcam 7">
+                <h5>FG25 / FG25K</h5>
+                <button class="btn btn-outline-dark">View Details</button>
+            </div>
+        </a>
+
+        <!-- eight -->
+        <a href="../webcam_detailed/webcam_detailed_page.html?id=38" class="text-decoration-none d-block">
+            <div class="product-card position-relative">
+                <span class="badge">Bluetooth</span>
+                <img src="../../../images/web_cam/webcam_8.jpg" alt="Webcam 8">
+                <h5>FG25 / FG25K</h5>
+                <button class="btn btn-outline-dark">View Details</button>
+            </div>
+        </a>
+
+        <!-- nine -->
+        <a href="../webcam_detailed/webcam_detailed_page.html?id=39" class="text-decoration-none d-block">
+            <div class="product-card position-relative">
+                <span class="badge">Bluetooth</span>
+                <img src="../../../images/web_cam/webcam_9.jpg" alt="Webcam 9">
+                <h5>FG25 / FG25K</h5>
+                <button class="btn btn-outline-dark">View Details</button>
+            </div>
+        </a>
+
+        <!-- ten -->
+        <a href="../webcam_detailed/webcam_detailed_page.html?id=40" class="text-decoration-none d-block">
+            <div class="product-card position-relative">
+                <span class="badge">Bluetooth</span>
+                <img src="../../../images/web_cam/webcam_10.jpg" alt="Webcam 10">
+                <h5>FG25 / FG25K</h5>
+                <button class="btn btn-outline-dark">View Details</button>
+            </div>
+        </a>
+
+    </div>
+
+    <br><br><br><br><br>
+
+    <!-- category closing -->
+
+
+
+
+      <!-- footer opening -->
+
+    <!-- Footer -->
+    <footer id="footer" class="text-light pt-5" style="background-color: #1e1e1e;">
+        <div class="container">
+
+            <div class="row border-bottom pb-4">
+
+                <!-- Column 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <img src="images/a4logo_2.svg" alt="" class="mb-3" style="height: 30px;">
+                    <p style="color: #C1C1C1; font-size: 15px;">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                        laudantium, totam rem aperiam.
+                    </p>
+
+                    <div>
+                        <i class="fa-brands fa-facebook-f m-1"></i>
+                        <i class="fa-brands fa-instagram m-1"></i>
+                        <i class="fa-brands fa-twitter m-1"></i>
+                        <i class="fa-brands fa-youtube m-1"></i>
+                    </div>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h3 style="font-size: 20px; font-weight: 350;">Navigation</h3>
+                    <div class="mt-3" style="color: #C1C1C1; font-size: 14px;">
+                        <a href="#nav_product" class="text-decoration-none d-block mb-2"
+                            style="color: #C1C1C1;">Home</a>
+                        <a href="#" class="text-decoration-none d-block mb-2" style="color: #C1C1C1;">Products</a>
+                        <a href="#Featured_Pro" class="text-decoration-none d-block mb-2"
+                            style="color: #C1C1C1;">Featured</a>
+                        <a href="#" class="text-decoration-none d-block mb-2" style="color: #C1C1C1;">Blog</a>
+                        <a href="#" class="text-decoration-none d-block" style="color: #C1C1C1;">Contact</a>
+                    </div>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h3 style="font-size: 20px; font-weight: 350;">Contact</h3>
+                    <div class="mt-3" style="color: #C1C1C1; font-size: 14px;">
+                        <p class="mb-1">87/A, Green lane, CA 6732</p>
+                        <p class="mb-1">Real State</p>
+                        <p class="mb-1">+10 236 327 3782</p>
+                    </div>
+                </div>
+
+                <!-- Column 4 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h3 style="font-size: 20px; font-weight: 350;">Subscribe Newsletter</h3>
+
+                    <div class="d-grid gap-3 col-12 mb-2">
+                        <input type="email" placeholder="Enter Your Email"
+                            class="form-control text-center Permission denied error bg-dark rounded-0 subscribe-input">
+
+                    </div>
+
+                    <button class="btn btn-dark border-light rounded-0 w-100 mt-2">
+                        Subscribe
+                    </button>
+                </div>
+
+
+            </div>
+
+            <div class="text-center mt-3 pb-3">
+                <p style="color:#afaaaa;">
+                    Copyright ©2025 All rights reserved | This template is made with 🤍 by
+                    <span style="color:#FFFFFF;">Colorlib</span>
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- Footer Closing -->
+
+
+
+    <script src="../../../home/home_page.js"></script>
+    <script src="../keyboard_detailed/keyboard_detailed_page.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

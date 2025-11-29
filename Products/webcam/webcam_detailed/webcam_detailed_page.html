@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Details</title>
+
+
+  <!-- firebase dataBase -->
+
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+
+  <!-- font awesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../../home/nav/nav.css">
+  <link rel="stylesheet" href="../../../home/home_page.css">
+
+  <!-- Custom CSS -->
+  <style>
+    body {
+      /* background-color: #ffffff; */
+      color: #222;
+      font-family: "Poppins", sans-serif;
+    }
+
+    /* Navbar */
+    .navbar {
+      /* background-color: #fff !important; */
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .navbar a {
+      /* color: #000 !important; */
+      font-weight: 500;
+    }
+
+    .navbar a:hover {
+      color: #007bff !important;
+    }
+
+    /* Product Section */
+    .product-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: start;
+      gap: 60px;
+      padding: 60px 10%;
+    }
+
+    .image_Slider {
+      flex: 1;
+      min-width: 300px;
+      max-width: 400px;
+    }
+
+    .carousel-inner img {
+      border-radius: 15px;
+      object-fit: cover;
+      height: 350px;
+    }
+
+    .thumbnail-row img {
+      border: 2px solid transparent;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .thumbnail-row img:hover {
+      border-color: #007bff;
+    }
+
+    .product_des {
+      flex: 1;
+      min-width: 350px;
+    }
+
+    .product_des h2 {
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .product_des p {
+      font-size: 15px;
+      color: #555;
+    }
+
+    .balck_color {
+      background-color: #000;
+      color: #000;
+      border: none;
+      width: 30px;
+      height: 30px;
+    }
+
+    /* Specs button */
+    #tech_specs_button {
+      background-color: #f8f9fa;
+      border: 1px solid #ddd;
+      padding: 10px 20px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    #tech_specs_button:hover {
+      background-color: #eaeaea;
+    }
+
+    #tech_spechs_detail_ ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    #tech_spechs_detail_ li {
+      padding: 5px 0;
+      border-bottom: 1px solid #eee;
+      font-size: 15px;
+      color: #444;
+    }
+
+    /* Price */
+    .price-area {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+    }
+
+    #first_mouse_orignal_price {
+      font-size: 28px;
+      font-weight: 600;
+      color: #d32f2f;
+    }
+
+    #first_mouse_cut_price {
+      font-size: 18px;
+      color: #999;
+    }
+
+    /* Buttons */
+    .btn-success {
+      background-color: #298948;
+      border: none;
+      font-size: 16px;
+      padding: 12px 0;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .btn-success:hover {
+      background-color: #13642d;
+    }
+
+    #cart_mesage_main {
+      margin-top: 1%;
+      margin-left: 86%;
+      background-color: #69d847;
+      color: white;
+      position: fixed;
+      border-radius: 15px;
+      /* padding: 10px 30px 10px 10px; */
+    }
+
+    #quantity_cart_mesage {
+      margin-top: 1%;
+      margin-left: 86%;
+      background-color: #22c55e;
+      color: white;
+      position: fixed;
+      border-radius: 8px;
+      padding: 12px 40px 12px 15px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      max-width: 350px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    #quantity_cart_mesage i {
+      font-size: 20px;
+    }
+
+    .success-message {
+      font-size: 15px;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    #close_butoon {
+      position: absolute;
+      top: 8px;
+      right: 10px;
+      background: none;
+      border: none;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+      line-height: 1;
+      opacity: 1;
+    }
+
+    #close_butoon:hover {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar Opening -->
+  <!-- Navbar -->
+  <nav id="Navbar" class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid px-4">
+      <!-- Logo -->
+      <a class="navbar-brand" href="../../../index.html">
+        <img src="../../../images/a4logo_2.svg" alt="PhoneBot Logo" class="logo" style="height: 30px;">
+      </a>
+
+      <!-- Mobile Toggle Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar Content -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <!-- Search Bar -->
+        <div class="search-container mx-auto">
+          <input type="text" class="search-input" placeholder="I'm shopping for...">
+          <button class="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+
+        <!-- Right Side Items -->
+        <div class="navbar-right d-flex align-items-center ms-auto">
+          <!-- Call Us -->
+          <div class="contact-item me-4">
+            <span class="contact-label">Call us</span>
+            <div class="contact-info">
+              <i class="fas fa-phone-alt me-2"></i>
+              <span class="contact-number">(03) 94626936</span>
+            </div>
+          </div>
+
+          <!-- WhatsApp -->
+          <div class="contact-item me-4">
+            <span class="contact-label">On Whatsapp</span>
+            <div class="contact-info">
+              <i class="fab fa-whatsapp me-2"></i>
+              <span class="contact-number">+61394626936</span>
+            </div>
+          </div>
+
+          <!-- Login/Register -->
+          <div class="auth-section me-4">
+            <a href="#" class="auth-link text-warning fw-semibold">Login / Register</a>
+            <div class="account-dropdown">
+              <span>My Account</span>
+              <i class="fas fa-chevron-down ms-1"></i>
+            </div>
+          </div>
+
+          <!-- Cart -->
+          <div class="cart-section">
+            <a href="../../mouse/mouse_cart/mouse_cart.html" class="cart-link">
+              <i class="fas fa-shopping-cart text-white"></i>
+              <span class="cart-text text-light">Cart</span>
+              <span id="cart_qunatity_num" class="cart-badge">0</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navbar Closing -->
+   
+  <!-- add to cart messgae -->
+  <div id="quantity_cart_mesage" class="d-none">
+    <i class="fa-regular fa-circle-check"></i>
+    <span id="quantity_button_text" class="success-message"></span>
+    <button onclick="close_butoon()" id="close_butoon" type="button">×</button>
+  </div>
+
+  <!-- Product Section -->
+  <section class="product-section">
+
+    <!-- Carousel -->
+    <div id="carouselExample" class="carousel slide image_Slider">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img id="first_mouse_carosel_first_image" src="../../images/mouse/mouse_1.1.jpg" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item">
+          <img id="first_mouse_carosel_second_image" src="../../images/mouse/mouse_1.2.jpg" class="d-block w-100"
+            alt="">
+        </div>
+        <div class="carousel-item">
+          <img id="first_mouse_carosel_third_image" src="../../images/mouse/mouse_1.3.jpg" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item">
+          <img id="first_mouse_carosel_fourth_image" src="../../images/mouse/mouse_1.4.jpg" class="d-block w-100"
+            alt="">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+      </button>
+
+      <div class="d-flex justify-content-center mt-3 thumbnail-row">
+        <img id="first_mouse_carosel_first_image_" width="60" data-bs-target="#carouselExample" data-bs-slide-to="0">
+        <img id="first_mouse_carosel_second_image_" width="60" data-bs-target="#carouselExample" data-bs-slide-to="1">
+        <img id="first_mouse_carosel_third_image_" width="60" data-bs-target="#carouselExample" data-bs-slide-to="2">
+        <img id="first_mouse_carosel_fourth_image_" width="60" data-bs-target="#carouselExample" data-bs-slide-to="3">
+      </div>
+    </div>
+
+    <!-- Product Details -->
+    <div class="product_des">
+      <h2 id="first_mouse_name"></h2>
+      <p id="first_mouse_des"></p>
+      <p><strong id="first_mouse_color"></strong></p>
+
+      <button type="button" class="btn btn-dark rounded-circle text-black balck_color">b</button>
+
+      <div class="mt-4">
+        <button id="tech_specs_button" onclick="tech_spechs_detail_open()" type="button">
+          Specs & Details <span id="tech_specs_button_plus">+</span>
+        </button>
+      </div>
+
+      <div id="tech_spechs_detail_" class="d-none mt-3">
+        <ul id="first_mpouse_specs">
+          <li id="Model"></li>
+          <li id="Type"></li>
+          <li id="Connection"></li>
+          <li id="Operating Range"></li>
+          <li id="Ergonomic Design"></li>
+          <li id="Sensor"></li>
+          <li id="Resolution"></li>
+          <li id="Report Rate"></li>
+          <li id="Buttons No"></li>
+          <li id="Receiver"></li>
+          <li id="Battery"></li>
+          <li id="Size"></li>
+          <li id="Net Weight"></li>
+          <li id="System Requirements"></li>
+        </ul>
+      </div>
+
+      <div class="mt-5">
+        <fieldset> Qunatity:
+          <input id="first_mouse_Qunatity" type="number" value="1" min="1" max="5" class="form-control w-25 mb-3">
+        </fieldset>
+        <div class="price-area">
+          <!-- <h2 id=""></h2><br> -->
+          <h2 id="first_mouse_orignal_price"></h2>
+          <del>
+            <h4 id="first_mouse_cut_price">
+          </del></h4>
+        </div>
+        <!-- <a href=""> -->
+        <button onclick="add_to_cart()" id="first_mouse_add_to_cart" class="btn btn-success w-50 rounded-4 mt-3"
+          type="button">Add to
+          Cart</button>
+        <!-- </a> -->
+      </div>
+    </div>
+
+  </section>
+
+     <!-- footer opening -->
+
+    <!-- Footer -->
+    <footer id="footer" class="text-light pt-5" style="background-color: #1e1e1e;">
+        <div class="container">
+
+            <div class="row border-bottom pb-4">
+
+                <!-- Column 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <img src="images/a4logo_2.svg" alt="" class="mb-3" style="height: 30px;">
+                    <p style="color: #C1C1C1; font-size: 15px;">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                        laudantium, totam rem aperiam.
+                    </p>
+
+                    <div>
+                        <i class="fa-brands fa-facebook-f m-1"></i>
+                        <i class="fa-brands fa-instagram m-1"></i>
+                        <i class="fa-brands fa-twitter m-1"></i>
+                        <i class="fa-brands fa-youtube m-1"></i>
+                    </div>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h3 style="font-size: 20px; font-weight: 350;">Navigation</h3>
+                    <div class="mt-3" style="color: #C1C1C1; font-size: 14px;">
+                        <a href="#nav_product" class="text-decoration-none d-block mb-2"
+                            style="color: #C1C1C1;">Home</a>
+                        <a href="#" class="text-decoration-none d-block mb-2" style="color: #C1C1C1;">Products</a>
+                        <a href="#Featured_Pro" class="text-decoration-none d-block mb-2"
+                            style="color: #C1C1C1;">Featured</a>
+                        <a href="#" class="text-decoration-none d-block mb-2" style="color: #C1C1C1;">Blog</a>
+                        <a href="#" class="text-decoration-none d-block" style="color: #C1C1C1;">Contact</a>
+                    </div>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h3 style="font-size: 20px; font-weight: 350;">Contact</h3>
+                    <div class="mt-3" style="color: #C1C1C1; font-size: 14px;">
+                        <p class="mb-1">87/A, Green lane, CA 6732</p>
+                        <p class="mb-1">Real State</p>
+                        <p class="mb-1">+10 236 327 3782</p>
+                    </div>
+                </div>
+
+                <!-- Column 4 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h3 style="font-size: 20px; font-weight: 350;">Subscribe Newsletter</h3>
+
+                    <div class="d-grid gap-3 col-12 mb-2">
+                        <input type="email" placeholder="Enter Your Email"
+                            class="form-control text-center Permission denied error bg-dark rounded-0 subscribe-input">
+
+                    </div>
+
+                    <button class="btn btn-dark border-light rounded-0 w-100 mt-2">
+                        Subscribe
+                    </button>
+                </div>
+
+
+            </div>
+
+            <div class="text-center mt-3 pb-3">
+                <p style="color:#afaaaa;">
+                    Copyright ©2025 All rights reserved | This template is made with 🤍 by
+                    <span style="color:#FFFFFF;">Colorlib</span>
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- Footer Closing -->
+
+  <script src="../../../home/home_page.js"></script>
+  <script src="webcam_detailed_page.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
